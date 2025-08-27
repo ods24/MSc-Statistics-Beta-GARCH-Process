@@ -56,7 +56,7 @@ To open them:
 
 The following were generated using Jupyter notebooks:
 
-- `BetaNormalConvergence.png` - Figure 1 in the report: shows the Beta innovations converging to Gaussian in the a-parameter limit; generated using `Beta Distribution Convergence Graph.ipynb`.
+- `FIG1-BetaNormalConvergence.png` - Figure 1 in the report: shows the Beta innovations converging to Gaussian in the a-parameter limit; generated using `Beta Distribution Convergence Graph.ipynb`.
 
 The following were generated using `mathematica_notebooks/Predictive_distributions.nb`:
 
