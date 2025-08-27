@@ -9,6 +9,8 @@ This contains the Jupyter notebooks and Mathematica notebooks for constructing t
 - `figures/` – Figures exported from notebooks and included in the LaTeX report
 - `requirements.txt` – Python dependencies needed to run the notebooks
 
+A comprehensive file list is provided below.
+
 ## How to run the Jupyter notebooks
 1. Install Python (the version I used: 3.10.0).
 
@@ -40,14 +42,27 @@ To open them:
 1. If you have Wolfram Mathematica installed locally, just open the `.nb` file via Wolfram, making sure it has saved with the correct filename extension.  
 2. Alternatively, you can upload the file to [Wolfram Cloud](https://www.wolframcloud.com/) to view it in browser.
 
-## File list
+## Comprehensive File list
 
-### Figures folder
+### Jupyter Notebooks
 
-The following were generated using `mathematica_notebooks/Predictive_distributions`:
+- `Beta Distribution Convergence Graph.ipynb` - Used for producing the Beta covergence graphs (figure 1 in the report).
+
+### Mathematica Notebooks
+
+- `Predictive_distributions.nb` - Used for generating plots for the predictive time steps at 0 (innovations), 1, 2; provides normalisation and first, second moments calculations.
+
+### Figures
+
+The following were generated using Jupyter notebooks:
+
+- `BetaNormalConvergence.png` - Figure 1 in the report: shows the Beta innovations converging to Gaussian in the a-parameter limit; generated using `Beta Distribution Convergence Graph.ipynb`.
+
+The following were generated using `mathematica_notebooks/Predictive_distributions.nb`:
 
 - `h0_h1_h2_main.pdf` – Figure XX in the report: predictive distributions for fixed parameters, at time steps 0 (innovations), 1, 2.
 - `h0_h1_h2_tails.pdf` – As above, looking only at tails.
+
 
 
 
