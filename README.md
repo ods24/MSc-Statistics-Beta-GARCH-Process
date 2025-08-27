@@ -4,8 +4,8 @@ Repository for MSc in Statistics 2025 Masters Dissertation: Analysing GARCH Proc
 This contains the Jupyter notebooks and Mathematica notebooks for constructing the report, as well as all figures for further examination.
 
 ## Structure
-- `notebooks/` – Jupyter notebooks (`.ipynb`) used for analysis
-- `mathematica/` – Wolfram Mathematica notebooks (`.nb`) used for predictive densities
+- `jupyter_notebooks/` – Jupyter notebooks (`.ipynb`) used for analysis
+- `mathematica_notebooks/` – Wolfram Mathematica notebooks (`.nb`) used for predictive densities
 - `figures/` – Figures exported from notebooks and included in the LaTeX report
 - `requirements.txt` – Python dependencies needed to run the notebooks
 
@@ -40,7 +40,14 @@ To open them:
 1. If you have Wolfram Mathematica installed locally, just open the `.nb` file via Wolfram, making sure it has saved with the correct filename extension.  
 2. Alternatively, you can upload the file to [Wolfram Cloud](https://www.wolframcloud.com/) to view it in browser.
 
-Figures generated in Mathematica that are included in the report are also exported to the `figures/` folder.
+## File list
+
+### Figures folder
+
+The following were generated using `mathematica_notebooks/Predictive_distributions`:
+
+- `h0_h1_h2_main.pdf` – Figure XX in the report: predictive distributions for fixed parameters, at time steps 0 (innovations), 1, 2.
+- `h0_h1_h2_tails.pdf` – As above, looking only at tails.
 
 
 
