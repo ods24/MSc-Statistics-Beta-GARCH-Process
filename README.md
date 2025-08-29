@@ -48,7 +48,7 @@ To open them:
 
 - `SP500 Returns.ipynb` - Used for producing the Beta covergence graphs (figure 1 in the report).
 - `Beta Distribution Convergence Graph.ipynb` - Used for producing the Beta covergence graphs (figure 2 in the report).
-- `GJR-GARCH Generations.ipynb` - Used for producing simulated Beta-GARCH and Gaussian processes (figures 6, 7 in the report).
+- `GJR-GARCH Generations.ipynb` - Used for producing simulated Beta-GARCH and Gaussian processes, plotting densities and producing metrics (figures 6, 7; table 1 in the report).
 
 ### Mathematica Notebooks
 
